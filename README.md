@@ -42,26 +42,49 @@ Bruges når:
 ### 11. Flyweight
 Bruges når:
 * man vil reducere memory-forbrug og forbedre performance, hvis der findes meget mange objekter, som i høj grad deler de samme data.
+### 12. Bridge
+Bruges når:
+* en abstraktion skal adskilles fra dens implementering, så de to kan udvikles uafhængigt af hinanden..
 ####
 ## Behavioral Patterns (adfærd og samarbejde)
-### 11. Strategy
+### 12. Strategy
 Bruges når:
 * Adfærdsalgoritme skifter dynamisk.
-### 12. Observer
+### 13. Observer
 Bruges når:
 * Et objekt skal informere andre objekter om ændringer.
-### 13. Command
+### 14. Command
 Bruges når:
 * En handling skal repræsenteres som et objekt.
 * Der er behov for undo/redo, køer eller logging af handlinger.
-### 14. Mediator
+### 15. Mediator
 Bruges når:
 * Mange objekter kommunikerer og spaghetti-afhængigheder skal undgås.
 * Al kommunikation skal gå gennem en central instans.
-### 15. State
+### 16. State
 Bruges når:
 * Objektets opførsel ændrer sig afhængig af dets interne tilstand.
 * I stedet for if-statements → brug siderelaterede klasser.
-### 16. Template Method
+### 17. Template Method
 Bruges når:
 * Der skal defineres skelet af en algoritme, men lade subclasses bestemme dele af den.
+### 18. Chain Of Responsibility
+Bruges når:
+en forespørgsel (request) føres gennem en kæde af handlers, hvor hver handler kan:
+* Håndtere requestet, eller
+* Sende det videre til næste handler i kæden.
+### 19. Iterator
+Bruges når:
+* det ønskes at give en ensartet måde at gennemløbe elementerne i en samling, uden at afsløre den interne datastruktur.
+### 20. Memento
+Bruges når:
+* et objekts tidligere tilstand skal gemmes eller gendannes uden at afsløre dets interne struktur.
+### 21. Observer
+Bruges når:
+* der skal laves event-baseret kommunikation uden stram kobling mellem komponenter.
+### 22. Visitor
+Bruges når:
+* der skal tilføjes nye operationer til eksisterende objekter uden at ændre deres klasser.
+
+
+
