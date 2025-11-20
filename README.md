@@ -47,9 +47,6 @@ Bruges når:
 * en abstraktion skal adskilles fra dens implementering, så de to kan udvikles uafhængigt af hinanden..
 ####
 ## Behavioral Patterns (adfærd og samarbejde)
-### 12. Strategy
-Bruges når:
-* Adfærdsalgoritme skifter dynamisk.
 ### 13. Observer
 Bruges når:
 * Et objekt skal informere andre objekter om ændringer.
@@ -79,12 +76,13 @@ Bruges når:
 ### 20. Memento
 Bruges når:
 * et objekts tidligere tilstand skal gemmes eller gendannes uden at afsløre dets interne struktur.
-### 21. Observer
+### 21. Strategy
 Bruges når:
-* der skal laves event-baseret kommunikation uden stram kobling mellem komponenter.
+* Adfærdsalgoritme skifter dynamisk.
 ### 22. Visitor
 Bruges når:
 * der skal tilføjes nye operationer til eksisterende objekter uden at ændre deres klasser.
+
 
 
 
